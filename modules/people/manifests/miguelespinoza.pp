@@ -2,7 +2,7 @@ class people::miguelespinoza {
 	include iterm2::dev
 	include zsh
 
-	include atom 
+	include atom
 
 # 	# install the linter package
 # 	atom::package { ['linter',
@@ -21,8 +21,10 @@ class people::miguelespinoza {
 #     source => 'puppet:///modules/people/miguelespinoza/atom/config.cson',
 #   }
 
-include sublime_text_3
-include sublime_text_3::package_control
+#include sublime_text_3
+#include sublime_text_3::package_control
+
+include dropbox
 
  class { 'intellij':
     edition => 'community'
