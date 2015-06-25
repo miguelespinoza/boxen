@@ -20,7 +20,7 @@ file { "/Users/${::luser}/.atom":
   }
 file { "/Users/${::luser}/.atom/config.cson":
     ensure => present,
-    source => 'puppet:///modules/people/samjsharpe/atom/config.cson',
+    source => 'puppet:///modules/people/miguelespinoza/atom/config.cson',
   }
 
 }
