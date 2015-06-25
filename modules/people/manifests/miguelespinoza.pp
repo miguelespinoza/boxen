@@ -25,7 +25,7 @@ class people::miguelespinoza {
 #include sublime_text_3::package_control
 
 include dropbox
-
+include ohmyzsh
 
 # install package named "Theme - Soda" from GitHub repository
 # will be stored in "Packages/Theme - Soda"

@@ -65,6 +65,7 @@ github "atom",            "1.2.0"
 github "iterm2",          "1.2.5"
 github "dropbox",         "1.4.1"
 github "zsh",             "1.0.0"
+github "ohmyzsh",         "1.0.0", :repo => "erivello/puppet-ohmyzsh"
 github "sublime_text_3",  "1.0.3", :repo => "jozefizso/puppet-sublime_text_3"
 
 # Optional/custom modules. There are tons available at
