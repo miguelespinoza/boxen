@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: boxen/puppet-atom
+  specs:
+    atom (1.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.10.4)
@@ -44,6 +49,11 @@ GITHUBTARBALL
     hub (1.4.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-iterm2
+  specs:
+    iterm2 (1.2.5)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.4.5)
@@ -79,6 +89,11 @@ GITHUBTARBALL
     ruby (8.5.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-sublime_text_2
+  specs:
+    sublime_text_2 (1.1.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
@@ -87,6 +102,11 @@ GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.2.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-zsh
+  specs:
+    zsh (1.0.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -104,6 +124,7 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 DEPENDENCIES
+  atom (= 1.2.0)
   boxen (= 3.10.4)
   brewcask (= 0.0.6)
   dnsmasq (= 2.0.1)
@@ -114,6 +135,7 @@ DEPENDENCIES
   homebrew (= 1.12.0)
   hub (= 1.4.1)
   inifile (= 1.1.1)
+  iterm2 (= 1.2.5)
   module_data (= 0.0.3)
   nginx (= 1.4.5)
   nodejs (= 4.0.1)
@@ -123,6 +145,8 @@ DEPENDENCIES
   repository (= 2.4.1)
   ruby (= 8.5.2)
   stdlib (= 4.2.1)
+  sublime_text_2 (= 1.1.2)
   sudo (= 1.0.0)
   xquartz (= 1.2.1)
+  zsh (= 1.0.0)
 
