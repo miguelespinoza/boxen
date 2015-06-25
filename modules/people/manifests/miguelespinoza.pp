@@ -9,7 +9,6 @@ class people::miguelespinoza {
 	atom::package { ['linter',
 					'atom-beautify',
 					'autocomplete-plus',
-					'linter',
       				'linter-puppet',
       				'linter-puppet-lint',
      				 'linter-puppet-parse',
