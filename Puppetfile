@@ -61,7 +61,7 @@ github "xquartz",     "1.2.1"
 # Applications
 
 github "atom",            "1.2.0"
-github "iterm2::dev",     "1.2.5"
+github "iterm2::stable",     "2.0.0"
 github "zsh",             "1.0.0"
 github "sublime_text_2",  "1.1.2"
 
