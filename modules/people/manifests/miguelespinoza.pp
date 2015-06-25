@@ -26,6 +26,15 @@ class people::miguelespinoza {
 
 include dropbox
 include ohmyzsh
+include chrome::beta
+include dash
+include vlc
+class { 'vlc':
+  version => '2.1.4'
+}
+include utorrent
+include hipchat
+
 
 # install package named "Theme - Soda" from GitHub repository
 # will be stored in "Packages/Theme - Soda"
