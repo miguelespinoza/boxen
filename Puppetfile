@@ -62,6 +62,7 @@ github "osx",             "2.7.0"
 # Applications
 
 github "atom",            "1.2.0"
+github "intellij",        "1.5.1"
 github "iterm2",          "1.2.5"
 github "zsh",             "1.0.0"
 github "sublime_text_3",  "1.0.3", :repo => "jozefizso/puppet-sublime_text_3"

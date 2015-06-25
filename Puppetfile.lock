@@ -94,11 +94,6 @@ GITHUBTARBALL
     ruby (8.5.2)
 
 GITHUBTARBALL
-  remote: boxen/puppet-sublime_text_2
-  specs:
-    sublime_text_2 (1.1.2)
-
-GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
@@ -112,6 +107,11 @@ GITHUBTARBALL
   remote: boxen/puppet-zsh
   specs:
     zsh (1.0.0)
+
+GITHUBTARBALL
+  remote: jozefizso/puppet-sublime_text_3
+  specs:
+    sublime_text_3 (1.0.3)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -151,7 +151,7 @@ DEPENDENCIES
   repository (= 2.4.1)
   ruby (= 8.5.2)
   stdlib (= 4.2.1)
-  sublime_text_2 (= 1.1.2)
+  sublime_text_3 (= 1.0.3)
   sudo (= 1.0.0)
   xquartz (= 1.2.1)
   zsh (= 1.0.0)
