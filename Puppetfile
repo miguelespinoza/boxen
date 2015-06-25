@@ -58,6 +58,13 @@ github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
+# Applications
+
+github "atom",            "1.2.0"
+github "iterm2::dev",     "1.2.5"
+github "zsh",             "1.0.0"
+github "sublime_text_2",  "1.1.2"
+
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 # github "elasticsearch", "2.7.2"
