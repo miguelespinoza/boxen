@@ -28,7 +28,6 @@ include dropbox
 include ohmyzsh
 include chrome::beta
 include dash
-include vlc
 class { 'vlc':
   version => '2.1.4'
 }
