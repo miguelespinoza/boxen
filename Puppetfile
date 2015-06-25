@@ -64,7 +64,7 @@ github "osx",             "2.7.0"
 github "atom",            "1.2.0"
 github "iterm2",          "1.2.5"
 github "zsh",             "1.0.0"
-github "sublime_text_3",  "1.0.3" :repo => "jozefizso/puppet-sublime_text_3"
+github "sublime_text_3",  "1.0.3", :repo => "jozefizso/puppet-sublime_text_3"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
