@@ -6,8 +6,22 @@ class people::miguelespinoza {
 	include atom 
 
 	# install the linter package
-	atom::package { 'linter': }
+	atom::package { ['linter',
+					'atom-beautify',
+					'autocomplete-plus',
+					'linter',
+      				'linter-puppet',
+      				'linter-puppet-lint',
+     				 'linter-puppet-parse',
+     				 'minimap']:
+     				 ensure => present, }
 
-	# install the monokai theme
-	atom::theme { 'monokai':}
+file { "/Users/${::luser}/.atom":
+    ensure => directory,
+  }
+file { "/Users/${::luser}/.atom/config.cson":
+    ensure => present,
+    source => 'puppet:///modules/people/samjsharpe/atom/config.cson',
+  }
+
 }
