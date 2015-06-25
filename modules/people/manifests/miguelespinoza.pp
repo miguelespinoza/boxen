@@ -26,9 +26,7 @@ class people::miguelespinoza {
 
 include dropbox
 
- class { 'intellij':
-    edition => 'community'
-  }
+
 # install package named "Theme - Soda" from GitHub repository
 # will be stored in "Packages/Theme - Soda"
 # sublime_text_3::package { 'Theme - Soda':
