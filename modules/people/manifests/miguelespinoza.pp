@@ -1,5 +1,5 @@
 class people::miguelespinoza {
-	include iterm2::stable
+	include iterm2::dev
 	include zsh
 
 	include sublime_text_2
