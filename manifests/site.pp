@@ -63,6 +63,8 @@ node default {
   # Applications via brewcask
   package { 'evernote': provider => 'brewcask' }
   package { 'intellij-idea-ce': provider => 'brewcask' }
+  package { 'menumeters': provider => 'brewcask' }
+  package { 'utorrent': provider => 'brewcask' }
   package { 'go':
     ensure => present
   }
