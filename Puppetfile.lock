@@ -9,6 +9,16 @@ GITHUBTARBALL
     atom (1.2.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-bartender
+  specs:
+    bartender (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-better_touch_tools
+  specs:
+    better_touch_tools (3.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.10.4)
@@ -37,6 +47,11 @@ GITHUBTARBALL
   remote: boxen/puppet-dropbox
   specs:
     dropbox (1.4.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-flux
+  specs:
+    flux (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -171,12 +186,15 @@ GITHUBTARBALL
 DEPENDENCIES
   android (= 1.5.1)
   atom (= 1.2.0)
+  bartender (= 1.0.0)
+  better_touch_tools (= 3.0.0)
   boxen (= 3.10.4)
   brewcask (= 0.0.6)
   chrome (= 1.2.0)
   dash (= 1.0.0)
   dnsmasq (= 2.0.1)
   dropbox (= 1.4.1)
+  flux (= 1.0.1)
   foreman (= 1.2.0)
   gcc (= 2.2.1)
   git (= 2.7.9)

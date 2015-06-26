@@ -58,9 +58,14 @@ node default {
   include hub
   include nginx
   include brewcask
+  include homebrew
 
   # Applications via brewcask
   package { 'evernote': provider => 'brewcask' }
+  package { 'intellij-idea-ce': provider => 'brewcask' }
+  package { 'go':
+    ensure => present
+  }
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
