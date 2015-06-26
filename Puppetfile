@@ -59,6 +59,7 @@ github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 github "osx",             "2.7.0"
 github "gitx",          "1.2.0"
+github "mercurial",     "0.0.1"
 
 # Applications
 

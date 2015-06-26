@@ -6,7 +6,7 @@ class people::miguelespinoza {
 
 atom::package { 'linter': }
 atom::package { 'atom-beautify':}
-atom::package { 'rubocop':}
+atom::package { 'go-plus':}
 	# install the monokai theme
 	atom::theme { 'atom-material-ui': }
 	atom::theme { 'atom-material-syntax': }
@@ -37,6 +37,10 @@ include android::platform_tools
 include android::22
 include android::doc
 include android::studio
+
+
+include mercurial
+include gitx
 
 
 include better_touch_tools
