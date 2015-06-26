@@ -7,6 +7,7 @@ class people::miguelespinoza {
 atom::package { 'linter': }
 atom::package { 'atom-beautify':}
 atom::package { 'go-plus':}
+atom::package { 'zen':}
 	# install the monokai theme
 	atom::theme { 'atom-material-ui': }
 	atom::theme { 'atom-material-syntax': }

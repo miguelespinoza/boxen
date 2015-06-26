@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: bluesalt/puppet-mercurial
+  specs:
+    mercurial (0.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-android
   specs:
     android (1.5.1)
@@ -216,6 +221,7 @@ DEPENDENCIES
   inifile (= 1.1.1)
   iterm2 (= 1.2.5)
   java (= 1.8.3)
+  mercurial (= 0.0.1)
   module_data (= 0.0.3)
   nginx (= 1.4.5)
   nodejs (= 4.0.1)
