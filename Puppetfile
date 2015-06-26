@@ -58,6 +58,7 @@ github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 github "osx",             "2.7.0"
+github "gix",          "1.2.0"
 
 # Applications
 

@@ -4,6 +4,12 @@ class people::miguelespinoza {
 
 	include atom
 
+atom::package { 'linter': }
+atom::package { 'atom-beautify':}
+atom::package { 'rubocop':}
+	# install the monokai theme
+	atom::theme { 'atom-material-ui': }
+	atom::theme { 'atom-material-syntax': }
 
 #include sublime_text_3
 #include sublime_text_3::package_control

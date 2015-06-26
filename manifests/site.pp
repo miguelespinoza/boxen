@@ -86,6 +86,11 @@ node default {
   ruby::version { '2.1.1': }
   ruby::version { '2.1.2': }
 
+  ruby::rubocop::plugin { 'rubocop':
+  ensure => 'v0.32.1',
+    source => 'bbatsov/rubocop'
+  }
+
   # common, useful packages
   package {
     [
