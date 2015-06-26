@@ -75,6 +75,7 @@ github "java",            "1.8.3"
 github "android",         "1.5.1"
 github "better_touch_tools", "3.0.0"
 github "flux",            "1.0.1"
+github "sizeup",          "1.0.0"
 github "bartender",       "1.0.0"
 github "sublime_text_3",  "1.0.3", :repo => "jozefizso/puppet-sublime_text_3"
 

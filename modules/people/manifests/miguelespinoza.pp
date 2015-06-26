@@ -36,6 +36,7 @@ include android::studio
 include better_touch_tools
 include flux::beta
 include bartender
+include sizeup
 
 
 # install package named "Theme - Soda" from GitHub repository
