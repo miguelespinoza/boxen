@@ -4,22 +4,6 @@ class people::miguelespinoza {
 
 	include atom
 
-# 	# install the linter package
-# 	atom::package { ['linter',
-# 					'atom-beautify',
-# 					'autocomplete-plus',
-#       				'linter-puppet',
-#       				'linter-puppet-lint',
-#      				 'linter-puppet-parse',
-#      				 'minimap']:
-#      				 ensure => present, }
-
-# file { "/Users/${::luser}/.atom":
-#     ensure => directory,
-#   }
-#     ensure => present,
-#     source => 'puppet:///modules/people/miguelespinoza/atom/config.cson',
-#   }
 
 #include sublime_text_3
 #include sublime_text_3::package_control
@@ -33,6 +17,21 @@ class { 'vlc':
 }
 #include utorrent
 include hipchat
+
+include java
+
+include android::sdk
+include android::tools
+include android::platform_tools
+#include android::17
+#include android::18
+#include android::19
+#include android::20
+#include android::21
+include android::22
+include android::doc
+include anroid::studio
+
 
 
 # install package named "Theme - Soda" from GitHub repository

@@ -119,11 +119,6 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-utorrent
-  specs:
-    utorrent (1.1.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-vlc
   specs:
     vlc (1.1.0)
@@ -193,7 +188,6 @@ DEPENDENCIES
   stdlib (= 4.2.1)
   sublime_text_3 (= 1.0.3)
   sudo (= 1.0.0)
-  utorrent (= 1.1.1)
   vlc (= 1.1.0)
   xquartz (= 1.2.1)
   zsh (= 1.0.0)
