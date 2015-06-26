@@ -79,25 +79,7 @@ node default {
   nodejs::version { 'v0.8': }
   nodejs::version { 'v0.10': }
 
-  # Set the global default ruby (auto-installs it if it can)
-  class { 'ruby::global':
-    version => '2.2.2'
-  }
-  # ensure a gem is installed for a certain ruby version
-  # note, you can't have duplicate resource names so you have to name like so
-  $version = "2.2.2"
-  ruby_gem { "bundler for ${version}":
-    gem          => 'bundler',
-    version      => '~> 1.2.0',
-    ruby_version => $version,
-  }
 
-  # ensure a gem is installed for all ruby versions
-ruby_gem { 'bundler for all rubies':
-  gem          => 'bundler',
-  version      => '~> 1.0',
-  ruby_version => '*',
-}
 
 
   # default ruby versions
@@ -107,10 +89,10 @@ ruby_gem { 'bundler for all rubies':
   ruby::version { '2.1.1': }
   ruby::version { '2.1.2': }
 
-  ruby::rubocop::plugin { 'rubocop':
-  ensure => 'v0.32.1',
-    source => 'bbatsov/rubocop'
-  }
+   ruby_gem { "rubocop":
+     gem           => "rubocop",
+     ruby_version  => "*",
+   }
 
   # common, useful packages
   package {
