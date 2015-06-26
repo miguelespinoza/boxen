@@ -30,7 +30,7 @@ include android::platform_tools
 #include android::21
 include android::22
 include android::doc
-include anroid::studio
+include android::studio
 
 
 
