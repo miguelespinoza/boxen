@@ -33,6 +33,10 @@ include android::doc
 include android::studio
 
 
+include better_touch_tools
+include flux::beta
+include bartender
+
 
 # install package named "Theme - Soda" from GitHub repository
 # will be stored in "Packages/Theme - Soda"
