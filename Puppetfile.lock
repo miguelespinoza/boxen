@@ -119,11 +119,6 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-utorrent
-  specs:
-    utorrent (1.1.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-vlc
   specs:
     vlc (1.1.0)
@@ -147,6 +142,11 @@ GITHUBTARBALL
   remote: jozefizso/puppet-sublime_text_3
   specs:
     sublime_text_3 (1.0.3)
+
+GITHUBTARBALL
+  remote: nonsense/puppet-utorrent
+  specs:
+    utorrent (1.1.1)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
