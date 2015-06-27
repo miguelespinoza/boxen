@@ -10,13 +10,13 @@ class people::miguelespinoza {
 # $ chmod u+rwx /usr/local/bin
 
 
-atom::package { 'linter': }
-atom::package { 'atom-beautify':}
-atom::package { 'go-plus':}
-atom::package { 'zen':}
+#atom::package { 'linter': }
+#atom::package { 'atom-beautify':}
+#atom::package { 'go-plus':}
+#atom::package { 'zen':}
 	# install the monokai theme
-	atom::theme { 'atom-material-ui': }
-	atom::theme { 'atom-material-syntax': }
+#	atom::theme { 'atom-material-ui': }
+#	atom::theme { 'atom-material-syntax': }
 
 #include sublime_text_3
 #include sublime_text_3::package_control
