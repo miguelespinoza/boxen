@@ -62,6 +62,7 @@ github "gitx",          "1.2.0"
 github "mercurial",     "0.0.1", :repo => "bluesalt/puppet-mercurial"
 
 # Applications
+github "fluid",           "1.0.2"
 
 github "atom",            "1.2.0"
 github "iterm2",          "1.2.5"

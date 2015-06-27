@@ -15,6 +15,7 @@ atom::package { 'zen':}
 #include sublime_text_3
 #include sublime_text_3::package_control
 
+include fluid
 include dropbox
 include ohmyzsh
 include chrome::beta
