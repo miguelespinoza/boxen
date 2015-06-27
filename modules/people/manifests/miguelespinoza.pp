@@ -3,6 +3,12 @@ class people::miguelespinoza {
 	include zsh
 
 	include atom
+# This seems to work when Symlinking Atom.app to .... fails..
+# $ sudo mkdir -p /usr/local/bin
+# # replace isamuelson below with your username from "whoami"
+# $ sudo chown isamuelson:staff /usr/local/bin
+# $ chmod u+rwx /usr/local/bin
+
 
 atom::package { 'linter': }
 atom::package { 'atom-beautify':}
