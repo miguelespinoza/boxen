@@ -10,3 +10,6 @@
 /shared/*
 !/shared/README.md
 /vendor/gems/
+/.DS_Store
+/manifest/.DS_Store
+/modules/people/manifest/.DS_Store
