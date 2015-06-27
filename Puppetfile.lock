@@ -54,11 +54,6 @@ GITHUBTARBALL
     dropbox (1.4.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-fluid
-  specs:
-    fluid (1.0.2)
-
-GITHUBTARBALL
   remote: boxen/puppet-flux
   specs:
     flux (1.0.1)
@@ -214,7 +209,6 @@ DEPENDENCIES
   dash (= 1.0.0)
   dnsmasq (= 2.0.1)
   dropbox (= 1.4.1)
-  fluid (= 1.0.2)
   flux (= 1.0.1)
   foreman (= 1.2.0)
   gcc (= 2.2.1)

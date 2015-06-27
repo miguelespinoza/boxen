@@ -65,13 +65,11 @@ node default {
   package { 'intellij-idea-ce': provider => 'brewcask' }
   package { 'menumeters': provider => 'brewcask' }
   package { 'utorrent': provider => 'brewcask' }
+  package { 'fluid': provider => 'brewcask' }
   package { 'go':
     ensure => present
   }
   package { 'mackup':
-    ensure => present
-  }
-  package { 'fluid':
     ensure => present
   }
 
