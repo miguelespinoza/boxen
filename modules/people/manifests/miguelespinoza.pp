@@ -3,14 +3,20 @@ class people::miguelespinoza {
 	include zsh
 
 	include atom
+# This seems to work when Symlinking Atom.app to .... fails..
+# $ sudo mkdir -p /usr/local/bin
+# # replace isamuelson below with your username from "whoami"
+# $ sudo chown isamuelson:staff /usr/local/bin
+# $ chmod u+rwx /usr/local/bin
 
-# atom::package { 'linter': }
-# atom::package { 'atom-beautify':}
-# atom::package { 'go-plus':}
-# atom::package { 'zen':}
-# 	# install the monokai theme
-# 	atom::theme { 'atom-material-ui': }
-# 	atom::theme { 'atom-material-syntax': }
+
+atom::package { 'linter': }
+atom::package { 'atom-beautify':}
+atom::package { 'go-plus':}
+atom::package { 'zen':}
+	# install the monokai theme
+	atom::theme { 'atom-material-ui': }
+	atom::theme { 'atom-material-syntax': }
 
 #include sublime_text_3
 #include sublime_text_3::package_control
