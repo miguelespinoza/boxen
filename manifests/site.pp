@@ -68,6 +68,9 @@ node default {
   package { 'go':
     ensure => present
   }
+  package { 'mackup':
+    ensure => present
+  }
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
