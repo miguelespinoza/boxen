@@ -65,6 +65,7 @@ github "mercurial",     "0.0.1", :repo => "bluesalt/puppet-mercurial"
 
 github "atom",            "1.2.0"
 github "iterm2",          "1.2.5"
+github "vagrant",         "3.3.0"
 github "dropbox",         "1.4.1"
 github "chrome",          "1.2.0"
 github "dash",            "1.0.0"
