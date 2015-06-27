@@ -71,6 +71,9 @@ node default {
   package { 'mackup':
     ensure => present
   }
+  package { 'fluid':
+    ensure => present
+  }
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
