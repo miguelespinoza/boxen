@@ -27,6 +27,7 @@ include dash
 class { 'vlc':
   version => '2.1.4'
 }
+class { 'vagrant': }
 #include utorrent
 include hipchat
 
