@@ -6,7 +6,7 @@
 /bin
 /config/local.rb
 /log
-/tmp
+/tmpp
 /shared/*
 !/shared/README.md
 /vendor/gems/

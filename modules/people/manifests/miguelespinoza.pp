@@ -9,12 +9,15 @@ class people::miguelespinoza {
 # $ sudo chown isamuelson:staff /usr/local/bin
 # $ chmod u+rwx /usr/local/bin
 
+include osx
 
+osx::recovery_message { 'If this Mac is found, please call 123-456-7890': }
 atom::package { 'linter': }
 atom::package { 'atom-beautify':}
 atom::package { 'go-plus':}
 atom::package { 'zen':}
-	# install the monokai theme
+atom::package { 'webbox-color':}
+	# install the monokai them
 	atom::theme { 'atom-material-ui': }
 	atom::theme { 'atom-material-syntax': }
 
