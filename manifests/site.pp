@@ -88,11 +88,7 @@ node default {
   nodejs::module { 'bower':
     node_version => 'v0.12.7'
   }
-
-  nodejs::module { 'bower':
-    node_version => 'v0.12.7'
-  }
-
+  
   nodejs::module { 'coffee-script':
     node_version => 'v0.12.7'
   }
