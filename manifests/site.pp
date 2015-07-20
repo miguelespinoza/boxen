@@ -94,7 +94,7 @@ node default {
   }
 
   nodejs::module { 'coffee-script':
-    node_version -> 'v0.12.7'
+    node_version => 'v0.12.7'
   }
 
 
