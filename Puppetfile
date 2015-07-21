@@ -57,9 +57,9 @@ github "ruby",        "8.5.2"
 github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
-github "osx",             "2.7.0"
-github "gitx",          "1.2.0"
-github "mercurial",     "0.0.1", :repo => "bluesalt/puppet-mercurial"
+github "osx",         "2.7.0"
+github "gitx",        "1.2.0"
+github "mercurial",   "0.0.1", :repo => "bluesalt/puppet-mercurial"
 
 # Applications
 
@@ -76,10 +76,10 @@ github "ohmyzsh",         "1.0.0", :repo => "erivello/puppet-ohmyzsh"
 github "java",            "1.8.3"
 github "android",         "1.5.1"
 github "better_touch_tools", "3.0.0"
-github "flux",            "1.0.1"
-github "sizeup",          "1.0.0"
-github "bartender",       "1.0.0"
-github "sublime_text_3",  "1.0.3", :repo => "jozefizso/puppet-sublime_text_3"
+github "flux",               "1.0.1"
+github "sizeup",             "1.0.0"
+github "bartender",          "1.0.0"
+github "sublime_text_3",     "1.0.3", :repo => "jozefizso/puppet-sublime_text_3"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
