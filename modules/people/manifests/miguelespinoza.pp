@@ -39,11 +39,11 @@ include java
 include android::sdk
 include android::tools
 include android::platform_tools
-#include android::17
-#include android::18
-#include android::19
-#include android::20
-#include android::21
+include android::17
+include android::18
+include android::19
+include android::20
+include android::21
 include android::22
 include android::doc
 include android::studio
