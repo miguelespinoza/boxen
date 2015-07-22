@@ -17,6 +17,8 @@ atom::package { 'atom-beautify':}
 atom::package { 'go-plus':}
 atom::package { 'zen':}
 atom::package { 'webbox-color':}
+atom::package { 'file-icons':}
+atom::package { 'file-icon-supplement':}
 	# install the monokai them
 	atom::theme { 'atom-material-ui': }
 	atom::theme { 'atom-material-syntax': }
