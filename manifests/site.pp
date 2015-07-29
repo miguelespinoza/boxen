@@ -65,6 +65,7 @@ node default {
   package { 'intellij-idea-ce': provider => 'brewcask' }
   package { 'menumeters': provider => 'brewcask' }
   package { 'utorrent': provider => 'brewcask' }
+  package { 'trello-x': provider => 'brewcask' }
   package { 'fluid': provider => 'brewcask' }
   package { 'go':
     ensure => present
@@ -88,7 +89,7 @@ node default {
   nodejs::module { 'bower':
     node_version => 'v0.12.7'
   }
-  
+
   nodejs::module { 'coffee-script':
     node_version => 'v0.12.7'
   }
