@@ -1,8 +1,8 @@
 class people::miguelespinoza {
 	include iterm2::dev
 	include zsh
-
 	include atom
+
 # This seems to work when Symlinking Atom.app to .... fails..
 # $ sudo mkdir -p /usr/local/bin
 # # replace isamuelson below with your username from "whoami"
@@ -12,6 +12,8 @@ class people::miguelespinoza {
 # include osx
 #
 # osx::recovery_message { 'If this Mac is found, please call 123-456-7890': }
+
+# atom packages
 atom::package { 'linter': }
 atom::package { 'atom-beautify':}
 atom::package { 'go-plus':}
@@ -19,9 +21,10 @@ atom::package { 'zen':}
 atom::package { 'webbox-color':}
 atom::package { 'file-icons':}
 atom::package { 'file-icon-supplement':}
-	# install the monokai them
-	atom::theme { 'atom-material-ui': }
-	atom::theme { 'atom-material-syntax': }
+
+# atom material theme
+atom::theme { 'atom-material-ui': }
+atom::theme { 'atom-material-syntax': }
 
 #include sublime_text_3
 #include sublime_text_3::package_control
@@ -33,11 +36,12 @@ class { 'vlc':
   version => '2.1.4'
 }
 class { 'vagrant': }
-#include utorrent
+
 include hipchat
 
 include java
 
+# android development
 include android::sdk
 include android::tools
 include android::platform_tools
@@ -55,16 +59,11 @@ include mercurial
 include gitx
 
 
+# productivity tools
 include better_touch_tools
 include flux::beta
 include bartender
 include sizeup
 
-
-# install package named "Theme - Soda" from GitHub repository
-# will be stored in "Packages/Theme - Soda"
-# sublime_text_3::package { 'Theme - Soda':
-#   source => 'buymeasoda/soda-theme/'
-# }
 
 }
