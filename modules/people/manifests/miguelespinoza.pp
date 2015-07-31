@@ -33,7 +33,9 @@ include dash
 class { 'vlc':
   version => '2.1.4'
 }
-class { 'vagrant': }
+class { 'vagrant':
+  version => '1.7.4'
+}
 
 include hipchat
 
