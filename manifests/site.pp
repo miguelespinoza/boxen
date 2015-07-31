@@ -67,6 +67,7 @@ node default {
   package { 'utorrent': provider => 'brewcask' }
   package { 'trello-x': provider => 'brewcask' }
   package { 'fluid': provider => 'brewcask' }
+  package { 'beardedspice': provider => 'brewcask' }
   package { 'go':
     ensure => present
   }
