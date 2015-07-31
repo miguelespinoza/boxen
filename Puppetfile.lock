@@ -184,11 +184,6 @@ GITHUBTARBALL
     ohmyzsh (1.0.0)
 
 GITHUBTARBALL
-  remote: jozefizso/puppet-sublime_text_3
-  specs:
-    sublime_text_3 (1.0.3)
-
-GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.1.1)
@@ -239,7 +234,6 @@ DEPENDENCIES
   ruby (= 8.5.2)
   sizeup (= 1.0.0)
   stdlib (= 4.2.1)
-  sublime_text_3 (= 1.0.3)
   sudo (= 1.0.0)
   vagrant (= 3.3.0)
   vlc (= 1.1.0)

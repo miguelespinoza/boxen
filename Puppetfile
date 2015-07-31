@@ -78,11 +78,3 @@ github "better_touch_tools", "3.0.0"
 github "flux",               "1.0.1"
 github "sizeup",             "1.0.0"
 github "bartender",          "1.0.0"
-
-# Optional/custom modules. There are tons available at
-# https://github.com/boxen.
-# github "elasticsearch", "2.7.2"
-# github "mysql",         "2.0.1"
-# github "postgresql",  "3.0.3"
-# github "redis",       "3.1.0"
-# github "sysctl",      "1.0.1"
