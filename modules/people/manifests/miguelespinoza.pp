@@ -40,6 +40,7 @@ class { 'vagrant':
 include hipchat
 
 include java
+include virtualbox
 
 # android development
 include android::sdk
@@ -57,7 +58,6 @@ include android::studio
 
 include mercurial
 include gitx
-
 
 # productivity tools
 include better_touch_tools
