@@ -68,6 +68,7 @@ node default {
   package { 'trello-x': provider => 'brewcask' }
   package { 'fluid': provider => 'brewcask' }
   package { 'beardedspice': provider => 'brewcask' }
+  package { 'boot2docker': provider => 'brewcask' }
   package { 'go':
     ensure => present
   }
