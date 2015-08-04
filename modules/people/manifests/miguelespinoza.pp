@@ -14,17 +14,17 @@ class people::miguelespinoza {
 # osx::recovery_message { 'If this Mac is found, please call 123-456-7890': }
 
 # atom packages
-atom::package { 'linter': }
-atom::package { 'atom-beautify':}
-atom::package { 'go-plus':}
-atom::package { 'zen':}
-atom::package { 'webbox-color':}
-atom::package { 'file-icons':}
-atom::package { 'file-icon-supplement':}
+#atom::package { 'linter': }
+#atom::package { 'atom-beautify':}
+#atom::package { 'go-plus':}
+#atom::package { 'zen':}
+#atom::package { 'webbox-color':}
+#atom::package { 'file-icons':}
+#atom::package { 'file-icon-supplement':}
 
 # atom material theme
-atom::theme { 'atom-material-ui': }
-atom::theme { 'atom-material-syntax': }
+#atom::theme { 'atom-material-ui': }
+#atom::theme { 'atom-material-syntax': }
 
 include dropbox
 include ohmyzsh
