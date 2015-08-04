@@ -1,14 +1,14 @@
 class people::miguelespinoza {
 	include iterm2::dev
 	include zsh
-	include atom
+	#include atom
 
   # Symlink to fix Atom install, see
   # https://github.com/caskroom/homebrew-cask/issues/4716
-  file { '/usr/local': 
-    ensure => link,
-    target => '/opt/boxen',
-  }
+  #file { '/usr/local': 
+   # ensure => link,
+    #target => '/opt/boxen',
+  #}
 
 # This seems to work when Symlinking Atom.app to .... fails..
 # $ sudo mkdir -p /usr/local/bin
