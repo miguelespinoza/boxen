@@ -28,6 +28,9 @@ atom::package { 'zen':}
 atom::package { 'webbox-color':}
 atom::package { 'file-icons':}
 atom::package { 'file-icon-supplement':}
+atom::package { 'autocomplete-polymer':}
+atom::package { 'recent-files-fuzzy-finder':}
+atom::package { 'zentabs':}
 
 # atom material theme
 atom::theme { 'atom-material-ui': }
