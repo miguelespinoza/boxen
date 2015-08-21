@@ -69,6 +69,7 @@ node default {
   package { 'fluid': provider => 'brewcask' }
   package { 'beardedspice': provider => 'brewcask' }
   #package { 'boot2docker': provider => 'brewcask' }
+  #package { 'github-desktop': provider => 'brewcask' }
   package { 'go':
     ensure => present
   }
