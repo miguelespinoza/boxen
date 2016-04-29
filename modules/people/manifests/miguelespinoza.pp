@@ -38,16 +38,10 @@ atom::theme { 'atom-material-syntax': }
 
 include dropbox
 include ohmyzsh
-include chrome::beta
 include dash
 class { 'vlc':
   version => '2.1.4'
 }
-class { 'vagrant':
-  version => '1.7.4'
-}
-
-include hipchat
 
 include java
 include virtualbox
