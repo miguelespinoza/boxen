@@ -90,13 +90,13 @@ node default {
   nodejs::version { 'v0.12.7':}
 
   # install some npm modules
-  nodejs::module { 'bower':
-    node_version => 'v0.12.7'
-  }
+  #nodejs::module { 'bower':
+  #  node_version => 'v0.12.7'
+  #}
 
-  nodejs::module { 'coffee-script':
-    node_version => 'v0.12.7'
-  }
+  #nodejs::module { 'coffee-script':
+  #  node_version => 'v0.12.7'
+  #}
 
   # default ruby versions
   ruby::version { '1.9.3': }
